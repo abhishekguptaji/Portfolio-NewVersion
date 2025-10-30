@@ -40,7 +40,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/abhishek__gupta2004"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:scale-110 transition"

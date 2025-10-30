@@ -1,5 +1,3 @@
-import React from "react";
-
 import hardwareStoreImg from "../assets/hardware_store.png";
 import BillingSystem from "../assets/Billing_System_image.jpg";
 import responsiveProject from "../assets/responsive_project.png";

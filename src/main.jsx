@@ -4,17 +4,22 @@ import './index.css'
 import App from './App.jsx'
 
 
-import { RouterProvider,createBrowserRouter , Route} from 'react-router-dom'
+import { RouterProvider,createBrowserRouter} from 'react-router-dom'
 import Project from './components/Project.jsx'
 import Contact from "./components/Contact.jsx"
 import GitHub from './components/GitHub.jsx'
 import Skills from "./components/Skills.jsx"
+import About from "./components/About.jsx"
 
 const router = createBrowserRouter([
   {
     path:'/',
     element:<App />,
     children:[
+      {
+       path:'/about',
+       element:<About/>
+      },
      {
       path:"project",
       element:<Project />
