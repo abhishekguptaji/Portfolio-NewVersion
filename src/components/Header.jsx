@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
 
           <div className="flex-shrink-0">
-            <Link to="/about" className="text-xl font-bold text-gray-800">
+            <Link to="/" className="text-xl font-bold text-gray-800">
               Abhishek Gupta
             </Link>
           </div>
@@ -17,7 +17,7 @@ const Header = () => {
 
           <nav className="hidden md:flex space-x-6">
             <NavLink
-              to="/about"
+              to="/"
               className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 
                      ${isActive ? "text-orange-700" : "text-gray-700"}
